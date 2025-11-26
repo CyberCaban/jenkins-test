@@ -30,7 +30,7 @@ public class AggregatorTest {
 
     @Test
     public void testReset() {
-	    Aggregator aggr = new Aggregator();
+	    Aggregator agr = new Aggregator();
 	    double val = 15;
 	    agr.addValue(val);
 	    assertThat(agr.getSum()).isEqualTo(val);
